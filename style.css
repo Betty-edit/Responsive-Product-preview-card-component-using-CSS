@@ -1,0 +1,121 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: hsl(30, 38%, 92%);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-size: 14px
+}
+main{
+  background-color: hsl(0, 0%, 100%);
+  max-width:80%;
+  width: 38%;
+
+    border-radius: 0.5rem;
+    height:50.9%;
+}
+img{
+    max-width: 50%;
+    height:30%;
+  display:grid;
+  place-items:left;
+  border-radius: 0.5rem 0 0 0.5rem;
+
+}
+.text1{
+  font-size: 0.82rem;
+   line-height: 1.175rem;
+   margin-top: 1.1rem;
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 2px;
+   position: relative;
+   bottom:23rem;
+   left:18rem;
+   font-weight: 450;
+   color:gray;
+
+
+
+}
+h1{
+  font-family:'Fraunces', sans-serif;
+  position: relative;
+  bottom:23rem;
+  left:18rem;
+  margin-right: 20rem;
+  font-weight:bolder;
+}
+.text2{
+  font-size: 0.82rem;
+   line-height: 1.175rem;
+   margin-top: 1.1rem;
+   font-family: 'Montserrat', sans-serif;
+   position: relative;
+   bottom:23rem;
+   left:18rem;
+   font-weight: 450;
+   color:gray;
+  margin-right: 19rem;
+}
+  .price{
+    font-size: 0.82rem;
+     line-height: 1.175rem;
+     margin-top: 1.1rem;
+     position: relative;
+     bottom:23rem;
+     left:18rem;
+     font-weight: 450;
+     color:gray;
+    margin-right: 19rem;
+  }
+  del{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left:8rem;
+    bottom:0.5rem;
+  }
+  ins{
+    font-family: "Fraunces",sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkgreen;
+    position: relative;
+    left:-3rem;
+  }
+  button{
+    font-size: 0.82rem;
+     line-height: 1.175rem;
+     margin-top: 1.1rem;
+     font-family: 'Montserrat', sans-serif;
+     display: inline-block;
+     position: relative;
+     bottom:24rem;
+     left:18rem;
+     font-weight: 450;
+     color:white;
+     background-color: darkgreen;
+     border: none;
+     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+font-weight: 600;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     width:40%;
+     height:3rem;
+     text-align: center;
+    margin-right: 19rem;
+  }
+  .icon
+  {
+    position: relative;
+
+top:9rem;
+			height: 0.7em;
+			margin-right:10px;
+			text-align: center;
+      margin-bottom:2px;
+
+  }
